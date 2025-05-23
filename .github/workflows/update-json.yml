@@ -16,5 +16,8 @@ jobs:
         with:
           python-version: "3.11"
 
+      - name: 22f3002579@ds.study.iitm.ac.in
+        run: echo "This step includes my email for verification."
+
       - name: Run update script
         run: python update_json.py
