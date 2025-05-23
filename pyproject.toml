@@ -7,4 +7,6 @@ requires-python = ">=3.13"
 dependencies = [
     "datetime>=5.5",
     "fastapi>=0.115.12",
+    "flask>=3.1.1",
+    "flask-cors>=6.0.0",
 ]
